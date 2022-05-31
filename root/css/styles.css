@@ -1,0 +1,162 @@
+@font-face {
+	font-family: Discord;
+	src: url(https://ming.jp.net/assets/fonts/Discord.otf);
+}
+@font-face {
+	font-family: Whitney;
+	font-weight: 300;
+	src: url(https://ming.jp.net/assets/fonts/Whitney300.woff) format("woff");
+}
+@font-face {
+	font-family: Whitney;
+	font-weight: 400;
+	src: url(https://ming.jp.net/assets/fonts/Whitney400.woff) format("woff");
+}
+@font-face {
+	font-family: Whitney;
+	font-weight: 500;
+	src: url(https://ming.jp.net/assets/fonts/Whitney500.woff) format("woff");
+}
+@font-face {
+	font-family: Whitney;
+	font-weight: 600;
+	src: url(https://ming.jp.net/assets/fonts/Whitney600.woff) format("woff");
+}
+@font-face {
+	font-family: Whitney;
+	font-weight: 700;
+	src: url(https://ming.jp.net/assets/fonts/Whitney700.woff) format("woff");
+}
+
+body {
+    margin:0;
+    background-color: #1e2124;
+}
+
+.qi97trgduqigY2D {
+    font-family: 'Discord', sans-serif;
+    font-weight: 500;
+    font-size: 3.5rem;
+}
+
+.oaihug {
+    position: relative;
+    text-align: center;
+    background: linear-gradient(10deg, #7289da 0%, #5865F2 100%);
+    color: white;
+    z-index: 9999;
+}
+
+.sughaagouih {
+    height: 55vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.qw90a38ytwsgh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.segh08yugaw9gyhvuawIzv {
+    position:relative;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -7px;
+    min-height: 100px;
+    max-height: 150px;
+}
+
+.awsiufgvhws83t7yf8w973tfgQAIUKfvgyc > use {
+    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5) infinite;
+}
+.awsiufgvhws83t7yf8w973tfgQAIUKfvgyc > use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+}
+.awsiufgvhws83t7yf8w973tfgQAIUKfvgyc > use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+}
+.awsiufgvhws83t7yf8w973tfgQAIUKfvgyc > use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+}
+.awsiufgvhws83t7yf8w973tfgQAIUKfvgyc > use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+}
+
+.aoghiaouwghfig {
+    padding-top: 2em;
+    padding-left: 2em;
+    text-align: left;
+    font-family: 'Whitney', sans-serif;
+    color: white;
+}
+.aoghiaouwghfig span {
+    padding-left: 0.3em;
+}
+.aoghiaouwghfig a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: small;
+}
+.aoghiaouwghfig a:hover {
+    font-weight: 700;
+}
+
+
+@keyframes move-forever {
+    0% {
+        transform: translate3d(-90px,0,0);
+    }
+    100% { 
+        transform: translate3d(85px,0,0);
+    }
+}
+
+@media (max-width: 768px) {
+    .segh08yugaw9gyhvuawIzv {
+        height: 15vh;
+        min-height: 40px;
+    }
+    .qi97trgduqigY2D {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .segh08yugaw9gyhvuawIzv {
+        height: 15vh;
+        min-height: 40px;
+    }
+    .qi97trgduqigY2D {
+        font-size: 1.25rem;
+    }
+}
+@media (min-width: 400px) and (max-width: 414px) {
+    .segh08yugaw9gyhvuawIzv {
+        height: 15vh;
+        min-height: 40px;
+    }
+    .qi97trgduqigY2D {
+        font-size: 1.25rem;
+    }
+    .aoghiaouwghfig {
+        padding-left: 1em !important; 
+    }
+}
