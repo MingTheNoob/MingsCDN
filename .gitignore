@@ -1,0 +1,4 @@
+.vscode/
+*.css.map
+*.scss*
+*.sass*
