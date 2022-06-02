@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
 * {
     margin: 0;
     padding: 0;
@@ -31,7 +32,7 @@ object {
 body {
     padding: 0 0;
     background: #192d40 url('https://cdn.ming.jp.net/root/imgs/bg.jpg') repeat-x;
-    font-family: "arial", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 13px;
     line-height: 24px;
     color: #e8eaeb;
@@ -72,14 +73,14 @@ h1 {
 
 h2 {
     font-size: 160%;
-    font-family: 'Trebuchet MS', 'Geneva CE', lucida, sans-serif;
+    font-family: 'Roboto', 'Geneva CE', lucida, sans-serif;
     font-weight: normal;
 }
 
 h3 {
     font-size: 120%;
     margin-top: 25px;
-    font-family: 'Trebuchet MS', 'Geneva CE', lucida, sans-serif;
+    font-family: 'Roboto', 'Geneva CE', lucida, sans-serif;
 }
 
 h4 {
@@ -112,7 +113,7 @@ h5 {
 }
 
 #logo {
-    font-family: Impact, 'Techno CE', sans-serif;
+    font-family: "Roboto", Impact, 'Techno CE', sans-serif;
     font-weight: normal;
     color: #fff;
     position: relative;
