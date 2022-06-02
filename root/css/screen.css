@@ -148,6 +148,7 @@ h5 {
 /* navigation --------------------------------------------------- */
 
 #nav {
+    font-family: "Roboto", Impact, 'Techno CE', sans-serif;
     position: relative;
     z-index: 2;
     border: 1px solid #1a2735;
