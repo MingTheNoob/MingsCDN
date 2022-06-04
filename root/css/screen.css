@@ -190,7 +190,7 @@ h5 {
 
 #nav ul li a:hover {
     background: #0a151f;
-    border-radius: 5%;
+    border-radius: 15%;
 }
 
 #nav ul li#active a {}
