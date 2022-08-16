@@ -1,6 +1,3 @@
 .vscode/
 *.scss*
 *.sass*
-*.js.map
-animations.css
-transformations.css
