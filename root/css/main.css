@@ -360,7 +360,6 @@ h6 {
 
 .mobile-nav-toggle.bi-x {
   color: #fff;
-  z-index: 998;
 }
 
 @media (max-width: 991px) {
