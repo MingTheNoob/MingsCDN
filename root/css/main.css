@@ -32,6 +32,26 @@ h6 {
   user-select: none;
 }
 
+.faq-h3-color {
+  color: #ffffff;
+}
+
+.faq-p-color {
+  color: rgb(214, 214, 214);
+}
+
+.faq-list-item {
+  color: rgb(215, 215, 215) !important;
+  font-weight: bold !important;
+}
+.faq-list-item-2 {
+  color: rgb(186, 186, 186) !important;
+}
+
+.faq-section-bg {
+  background-color: rgb(21, 23, 24);
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
