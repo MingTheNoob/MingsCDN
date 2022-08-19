@@ -216,7 +216,7 @@ h6 {
   color: #eeeeee;
 }
 
-#header .logo a span {
+#header .logo a .normal-span {
   color: rgb(103, 168, 220);
 }
 
