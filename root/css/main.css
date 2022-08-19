@@ -52,6 +52,16 @@ h6 {
   background-color: rgb(21, 23, 24);
 }
 
+.mings-i {
+  color: #3b8af2;
+  position: relative;
+}
+.mings-i:before {
+  content: "ı";
+  position: absolute; 
+  color: #eeeeee;
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
