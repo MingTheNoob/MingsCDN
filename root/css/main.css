@@ -52,16 +52,6 @@ h6 {
   background-color: rgb(21, 23, 24);
 }
 
-.mings-i {
-  color: #3b8af2;
-  position: relative;
-}
-.mings-i:before {
-  content: "ı";
-  position: absolute; 
-  color: #eeeeee;
-}
-
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -226,7 +216,7 @@ h6 {
   color: #eeeeee;
 }
 
-#header .logo a .normal-span {
+#header .logo a span {
   color: rgb(103, 168, 220);
 }
 
@@ -527,7 +517,7 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
-#hero h1 .normal-span {
+#hero h1 span {
   color: rgb(100, 164, 215);
 }
 
