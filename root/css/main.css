@@ -77,6 +77,10 @@ h6 {
   font-size: small;
 }
 
+.hero-height-adjust {
+  height: auto !important;
+}
+
 .gddllg-p {
   color: rgb(209, 209, 209) !important;
 }
