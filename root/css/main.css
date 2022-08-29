@@ -68,6 +68,10 @@ h6 {
   font-style: italic;
 }
 
+.directory-list-h3 {
+  color: rgb(210, 210, 210);
+}
+
 .gddllg-p {
   color: rgb(209, 209, 209) !important;
 }
