@@ -81,6 +81,17 @@ h6 {
   height: auto !important;
 }
 
+@media screen and (min-width: 768px) {
+  .hero-height-adjust-main {
+      height: 50vh !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  .hero-height-adjust-main {
+      height: 75vh !important;
+  }
+}
+
 .gddllg-p {
   color: rgb(209, 209, 209) !important;
 }
