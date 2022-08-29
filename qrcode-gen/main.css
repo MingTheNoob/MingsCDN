@@ -1,0 +1,35 @@
+.qrcode-gen-input-bg-color {
+    background-color: rgb(29, 29, 29) !important;
+    color: rgb(210, 210, 210);
+    outline: none;
+    box-shadow: none !important;
+}
+.qrcode-gen-p-input-placeholder:focus {
+    color: rgb(210, 210, 210);
+    outline: none;
+    box-shadow: none !important;
+}
+.qrcode-button {
+    background-color: #0b5ed7;
+    color: rgb(255, 255, 255) !important;
+    border: none;
+    box-shadow: none !important;
+}
+.qrcode-button:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+#showQrCode {
+    margin: auto;
+    width: 20%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 0 1rem;
+  }
+  
+.styleQr {
+    width: 100%;
+    color: #000 !important;
+}
