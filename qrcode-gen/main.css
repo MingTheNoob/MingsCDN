@@ -33,3 +33,12 @@
     width: 100%;
     color: #000 !important;
 }
+
+@media screen and (max-width: 767px) {
+    .hero-height-adjust-qrcode {
+        height: 40vh !important;
+    }
+    #showQrCode {
+        width: 40%;
+      }
+}
