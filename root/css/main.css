@@ -72,6 +72,11 @@ h6 {
   color: rgb(210, 210, 210);
 }
 
+.directory-list-span {
+  color: rgb(137, 137, 137);
+  font-size: small;
+}
+
 .gddllg-p {
   color: rgb(209, 209, 209) !important;
 }
