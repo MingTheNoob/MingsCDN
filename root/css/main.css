@@ -68,25 +68,25 @@ h6 {
   font-style: italic;
 }
 
-.gddlg-p {
+.gddllg-p {
   color: rgb(209, 209, 209);
 }
 
-.gddlg-p-field-head {
+.gddllg-p-field-head {
   color: rgb(148, 148, 148);
 }
 
-.gddlg-input-bg-color {
+.gddllg-input-bg-color {
   background-color: rgb(29, 29, 29);
 }
-.gddlg-input-bg-color-2 {
+.gddllg-input-bg-color-2 {
   background-color: rgb(29, 29, 29);
 }
-.gddlg-input-bg-color:focus {
+.gddllg-input-bg-color:focus {
   background-color: rgb(24, 24, 24);
   border: none;
 }
-.gddlg-input-bg-color-2:focus {
+.gddllg-input-bg-color-2:focus {
   background-color: rgb(29, 29, 29);
   border: none;
 }
