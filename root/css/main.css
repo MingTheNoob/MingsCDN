@@ -68,12 +68,33 @@ h6 {
   font-style: italic;
 }
 
-.gddllg-p {
+.gddlg-p {
   color: rgb(209, 209, 209);
 }
 
-.gddllg-p-field-head {
+.gddlg-p-field-head {
   color: rgb(148, 148, 148);
+}
+
+.gddlg-input-bg-color {
+  background-color: rgb(29, 29, 29);
+}
+.gddlg-input-bg-color-2 {
+  background-color: rgb(29, 29, 29);
+}
+.gddlg-input-bg-color:focus {
+  background-color: rgb(24, 24, 24);
+  border: none;
+}
+.gddlg-input-bg-color-2:focus {
+  background-color: rgb(29, 29, 29);
+  border: none;
+}
+.gddllg-p-input-placeholder {
+  color: rgb(152, 152, 152);
+}
+.gddllg-p-input-placeholder:focus {
+  color: rgb(210, 210, 210);
 }
 
 /*--------------------------------------------------------------
