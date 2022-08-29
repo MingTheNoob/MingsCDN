@@ -52,6 +52,22 @@ h6 {
   background-color: rgb(21, 23, 24);
 }
 
+.directory-list-p {
+  color: rgb(212, 212, 212);
+}
+
+.directory-list-a {
+  color: rgb(0, 126, 252);
+}
+
+.directory-list-a-arrow {
+  font-size: small;
+}
+
+.directory-list-span-italics {
+  font-style: italic;
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
