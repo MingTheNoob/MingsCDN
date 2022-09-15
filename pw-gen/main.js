@@ -44,8 +44,8 @@ function generateX() {
 function generatePassword() {
   const len = lenEl.value;
 
-  if (len < 4 || len > 30) {
-    alert("Password length shoud be between 4 and 30 !!");
+  if (len < 4 || len > 32) {
+    alert("never gonna give you up");
     pwEl.innerText = "";
   } else {
     let password = "";
