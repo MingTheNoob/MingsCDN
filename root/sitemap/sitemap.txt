@@ -1,6 +1,8 @@
 https://utilities.ming.jp.net
-https://utilities.ming.jp.net/terms
-https://utilities.ming.jp.net/privacy
+https://utilities.ming.jp.net/legal/
+https://utilities.ming.jp.net/legal/terms
+https://utilities.ming.jp.net/legal/privacy
+https://utilities.ming.jp.net/legal/MPL
 https://utilities.ming.jp.net/donate
 https://utilities.ming.jp.net/directory
 https://utilities.ming.jp.net/contact
