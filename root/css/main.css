@@ -647,7 +647,7 @@ section {
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    background-color: #333333 !important;
+    background-color: #181818 !important;
 }
 
 .features .nav-tabs {
@@ -656,9 +656,9 @@ section {
 }
 
 .features .nav-link {
-    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1) !important;
-    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1) !important;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1) !important;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(22, 22, 22, 0.1) !important;
+    -moz-box-shadow: 0px 0px 10px 0px rgba(22, 22, 22, 0.1) !important;
+    box-shadow: 0px 0px 10px 0px rgba(22, 22, 22, 0.1) !important;
     border: 0;
     border-radius: .5rem !important;
     padding: 15px;
