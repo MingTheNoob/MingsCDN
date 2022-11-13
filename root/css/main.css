@@ -866,13 +866,12 @@ section {
 .faq .faq-list .question {
     display: block;
     position: relative;
-    font-family: #ef6603;
     font-size: 18px;
     line-height: 24px;
-    font-weight: 400;
+    font-weight: 700;
     padding-left: 25px;
     cursor: pointer;
-    color: #bd5102;
+    color: rgb(232, 230, 227);
     transition: 0.3s;
 }
 
@@ -893,11 +892,11 @@ section {
 }
 
 .faq .faq-list .collapsed {
-    color: black;
+    color: rgb(232, 230, 227);
 }
 
 .faq .faq-list .collapsed:hover {
-    color: #ef6603;
+    color: #a2e2ff;
 }
 
 .faq .faq-list .collapsed .icon-show {
