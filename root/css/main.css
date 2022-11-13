@@ -643,12 +643,12 @@ section {
 # Features
 --------------------------------------------------------------*/
 .features {
-  background-color: #181818;
+  background-color: #181818 !important;
 }
 
 .features .nav-tabs {
   border: 0;
-  background-color: #0f0f0f;
+  background-color: #0f0f0f !important; 
 }
 
 .features .nav-link {
