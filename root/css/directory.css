@@ -283,6 +283,7 @@
 .h4-project-title-2f9h2f:hover {
   color: #0051ca !important;
   text-decoration: underline !important;
+  cursor: pointer !important;
 }
 
 /* SUPPORT TICKET */
