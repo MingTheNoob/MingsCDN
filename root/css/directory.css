@@ -280,6 +280,11 @@
   color: #818181 !important;
 }
 
+.h4-project-title-2f9h2f:hover {
+  color: #0051ca !important;
+  text-decoration: underline !important;
+}
+
 /* SUPPORT TICKET */
 .support ul {
   list-style: none;
