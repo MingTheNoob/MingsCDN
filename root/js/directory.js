@@ -201,3 +201,13 @@ btnplanned.addEventListener("click", function () {
     btnplanned.classList.add("active");
     btnfinished.classList.remove("active");
 });
+
+h41outof3.addEventListener("click", function () {
+    window.open(mainlink1, '_blank');
+});
+h42outof3.addEventListener("click", function () {
+    window.open(mainlink2, '_blank');
+});
+h43outof3.addEventListener("click", function () {
+    window.open(mainlink3, '_blank');
+});
