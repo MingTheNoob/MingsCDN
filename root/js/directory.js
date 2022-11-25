@@ -22,6 +22,7 @@ var circletype2 = document.getElementById('circle-type-viesnv3');
 var circlelabel2 = document.getElementById('circle-label-6a84fc6a1w');
 var h43outof3 = document.getElementById("h4-3outof3-v39hcv398");
 var progressicon3 = document.getElementById("progress-icon-9f2h9f2");
+var mainlink3 = document.getElementById("a-href-link-03h8vc8nv");
 
 wtmenubtn.addEventListener("click", function () {
     wtmenubtn.classList.add("active");
