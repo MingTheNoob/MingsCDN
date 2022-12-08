@@ -643,7 +643,7 @@ section {
 # Features
 --------------------------------------------------------------*/
 .features {
-    background-color: #0f0f0f !important;
+    background-color: rgb(14, 14, 14) !important;
 }
 
 .nav-tabs .nav-item.show .nav-link,
