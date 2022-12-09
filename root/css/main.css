@@ -580,7 +580,7 @@ section {
     width: 120px;
     height: 1px;
     display: inline-block;
-    background: #42a9fd;
+    background: #257bfc;
     margin: 4px 10px;
 }
 
@@ -886,6 +886,7 @@ section {
 --------------------------------------------------------------*/
 .faq {
     padding: 60px 0;
+    background-color: #080808;
 }
 
 .faq .faq-list {
@@ -894,10 +895,16 @@ section {
 }
 
 .faq .faq-list li {
-    border-bottom: 1px solid #ececf1;
+    border: 1px solid #333333;
+    background-color: #0a0a0a;
+    border-radius: 1rem;
     margin-bottom: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
 }
+.faq .faq-list li:hover {
+    background-color: #257bfc;
+}
+
 
 .faq .faq-list .question {
     display: block;
@@ -932,7 +939,7 @@ section {
 }
 
 .faq .faq-list .collapsed:hover {
-    color: #a2e2ff;
+    color: #ffffff;
 }
 
 .faq .faq-list .collapsed .icon-show {
