@@ -766,6 +766,12 @@ section {
 .row-c892ghf92 {
     display: initial !important;
 }
+@media (min-width: 992px) {
+    .col-lg-6 {
+        flex: 0 0 auto;
+        width: 100% !important;
+    }
+}
 
 /*--------------------------------------------------------------
 # Cta
