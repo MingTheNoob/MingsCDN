@@ -37,8 +37,8 @@ wtmenubtn.addEventListener("click", function () {
     btnplanned.classList.remove("active");
 
     projectsh2.innerText = "Web Tools Projects";
-    btnfinished.innerText = "3 Finished";
-    btnplanned.innerText = "2 Planned";
+    btnfinished.innerText = "4 Finished";
+    btnplanned.innerText = "1 Planned";
 
     h41outof4.innerText = "GDrive Download Link Generator";
     progressicon1.classList.add("ri-check-double-line");
