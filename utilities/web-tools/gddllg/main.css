@@ -1,0 +1,37 @@
+.gddllg-p {
+    color: rgb(209, 209, 209) !important;
+}
+
+.gddllg-p-field-head {
+    color: rgb(148, 148, 148) !important;
+}
+
+.gddllg-input-bg-color {
+    background-color: rgb(29, 29, 29) !important;
+}
+
+.gddllg-input-bg-color-2 {
+    background-color: rgb(29, 29, 29) !important;
+}
+
+.gddllg-input-bg-color:focus {
+    background-color: rgb(24, 24, 24) !important;
+    border: none !important;
+}
+
+.gddllg-input-bg-color-2:focus {
+    background-color: rgb(29, 29, 29) !important;
+    border: none !important;
+}
+
+.gddllg-p-input-placeholder {
+    color: rgb(152, 152, 152) !important;
+}
+
+.gddllg-p-input-placeholder:focus {
+    color: rgb(210, 210, 210) !important;
+}
+
+#copylinkbtn {
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
+}
