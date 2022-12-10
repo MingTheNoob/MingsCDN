@@ -195,23 +195,15 @@
 }
 
 @media screen and (max-width: 974px) {
-  #released-c73bc3 {
-    display: none;
-  }
-  #p-released-wi8rhd289 {
-    display: none;
-  }
+  #released-c73bc3,
+  #p-released-wi8rhd289,
   #webtools-hr-fi3n932 {
     display: none;
   }
 }
 @media screen and (min-width: 974px) {
-  #released-c73bc3 {
-    display: block;
-  }
-  #p-released-wi8rhd289 {
-    display: block;
-  }
+  #released-c73bc3,
+  #p-released-wi8rhd289,
   #webtools-hr-fi3n932 {
     display: block;
   }
