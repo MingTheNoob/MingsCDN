@@ -195,20 +195,19 @@
 }
 
 @media screen and (max-width: 974px) {
-  #timeline {
+  #released-c73bc3 {
     display: none;
   }
-  #timeline-mobile {
-    display: block;
-    background-color: #141414 !important;
+  #p-released-wi8rhd289 {
+    display: none;
   }
 }
 @media screen and (min-width: 974px) {
-  #timeline {
+  #released-c73bc3 {
     display: block;
   }
-  #timeline-mobile {
-    display: none;
+  #p-released-wi8rhd289 {
+    display: block;
   }
 }
 .cursor-pointer {
