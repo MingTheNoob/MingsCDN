@@ -200,14 +200,14 @@ btnplanned.addEventListener("click", function () {
 });
 
 h41outof4.addEventListener("click", function () {
-    window.open(mainlink1, '_blank');
+    window.open(mainlink1);
 });
 h42outof4.addEventListener("click", function () {
-    window.open(mainlink2, '_blank');
+    window.open(mainlink2);
 });
 h43outof4.addEventListener("click", function () {
-    window.open(mainlink3, '_blank');
+    window.open(mainlink3);
 });
 h44outof4.addEventListener("click", function () {
-    window.open(mainlink4, '_blank');
+    window.open(mainlink4);
 });
