@@ -969,6 +969,7 @@ section {
     border-radius: 1rem;
     margin-bottom: 20px;
     padding: 20px;
+    padding-bottom: 20px;
 }
 .quicklinks-cmds-list .faq-list li:hover {
     background-color: #257bfc;
