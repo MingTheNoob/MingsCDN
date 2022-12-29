@@ -953,6 +953,75 @@ section {
 }
 
 /*--------------------------------------------------------------
+# QuickLinks Commands List
+--------------------------------------------------------------*/
+.quicklinks-cmds-list {
+    padding: 60px 0;
+}
+
+.quicklinks-cmds-list .faq-list {
+    padding: 0;
+    list-style: none;
+}
+
+.quicklinks-cmds-list .faq-list li {
+    border: 1px solid #333333;
+    border-radius: 1rem;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.quicklinks-cmds-list .faq-list li:hover {
+    background-color: #257bfc;
+}
+
+
+.quicklinks-cmds-list .faq-list .question {
+    display: block;
+    position: relative;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    padding-left: 25px;
+    cursor: pointer;
+    color: rgb(232, 230, 227);
+    transition: 0.3s;
+}
+
+.quicklinks-cmds-list .faq-list i {
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+.quicklinks-cmds-list .faq-list p {
+    margin-bottom: 0;
+    padding: 10px 0 0 25px;
+}
+
+.quicklinks-cmds-list .faq-list .icon-show {
+    display: none;
+}
+
+.quicklinks-cmds-list .faq-list .collapsed {
+    color: rgb(232, 230, 227);
+}
+
+.quicklinks-cmds-list .faq-list .collapsed:hover {
+    color: #ffffff;
+}
+
+.quicklinks-cmds-list .faq-list .collapsed .icon-show {
+    display: inline-block;
+    transition: 0.6s;
+}
+
+.quicklinks-cmds-list .faq-list .collapsed .icon-close {
+    display: none;
+    transition: 0.6s;
+}
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
