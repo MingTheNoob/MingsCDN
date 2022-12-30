@@ -1,11 +1,11 @@
 var clipboard = new ClipboardJS('.btn', {
-	container: document.getElementById('copylinkbtn')
+    container: document.getElementById('copylinkbtn')
 });
 
-clipboard.on('success', function(e) {
+clipboard.on('success', function (e) {
     document.getElementById('copylinkbtn').innerHTML = 'Copied';
 });
 
-clipboard.on('error', function(e) {
+clipboard.on('error', function (e) {
     document.getElementById('copylinkbtn').innerHTML = 'Error';
 });
