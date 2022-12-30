@@ -3,29 +3,31 @@
 }
 
 .gddllg-p-field-head {
-    color: rgb(148, 148, 148) !important;
+    color: rgb(218, 218, 218) !important;
 }
 
 .gddllg-input-bg-color {
-    background-color: rgb(29, 29, 29) !important;
+    background-color: #0f0f0f !important;
+    border: none !important;
 }
 
 .gddllg-input-bg-color-2 {
-    background-color: rgb(29, 29, 29) !important;
+    background-color: #0f0f0f !important;
+    border: none !important;
 }
 
 .gddllg-input-bg-color:focus {
-    background-color: rgb(24, 24, 24) !important;
+    background-color: #14151c !important;
     border: none !important;
 }
 
 .gddllg-input-bg-color-2:focus {
-    background-color: rgb(29, 29, 29) !important;
+    background-color: #14151c !important;
     border: none !important;
 }
 
 .gddllg-p-input-placeholder {
-    color: rgb(152, 152, 152) !important;
+    color: rgb(121, 121, 121) !important;
 }
 
 .gddllg-p-input-placeholder:focus {
