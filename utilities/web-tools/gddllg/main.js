@@ -1,4 +1,4 @@
-new ClipboardJS('.btn', {
+var clipboard = new ClipboardJS('.btn', {
 	container: document.getElementById('copylinkbtn')
 });
 
