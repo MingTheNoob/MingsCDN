@@ -129,7 +129,7 @@ otherbtn.addEventListener("click", function () {
     progressicon2.classList.remove("ri-check-double-line");
     ptdesctext2.innerText = "Development will start in 2023. Release to be determined.";
     ghlink2.href = "https://github.com/MingTheNoob/PyManager";
-    mainlink2.href = "/PyManager";
+    mainlink2.href = "/python/PyManager";
     circletype2.classList.add("desktopapp-mark-f90h290");
     circletype2.classList.remove("webapp-mark-39f7cg");
     circletype2.classList.remove("webext-mark-c923ncv39");
