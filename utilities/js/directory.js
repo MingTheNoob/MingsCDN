@@ -87,7 +87,7 @@ itmenubtn.addEventListener("click", function () {
     progressicon1.classList.remove("ri-check-double-line");
     ptdesctext1.innerText = "Design will be during 2023. Production will be in 2024. Release to be determined.";
     ghlink1.href = "https://github.com/BlitzCream/NeptuniumBrowser";
-    mainlink1.href = "https://neptunium.blitzcream.com/browser";
+    mainlink1.href = "https://neptunium.io/browser";
     circletype1.classList.add("inb-mark-cs96g32d");
     circletype1.classList.remove("webapp-mark-39f7cg");
     circletype1.classList.remove("webext-mark-c923ncv39");
@@ -117,7 +117,7 @@ otherbtn.addEventListener("click", function () {
     progressicon1.classList.remove("ri-check-double-line");
     ptdesctext1.innerText = "Development has started, but has been stopped until further plans can be made. Release to be determined.";
     ghlink1.href = "https://github.com/BlitzCream/NeptuniumOS";
-    mainlink1.href = "https://neptunium.blitzcream.com/os";
+    mainlink1.href = "https://neptunium.io/os";
     circletype1.classList.add("os-mark-209hf29");
     circletype1.classList.remove("webapp-mark-39f7cg");
     circletype1.classList.remove("webext-mark-c923ncv39");
