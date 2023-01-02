@@ -16,11 +16,11 @@ var addWebExtLiItem = `
                 <i id="progress-icon-f83h8f3dw" class="ri-checkbox-circle-line"></i>
                 <strong id="p-tdescription-3f7gw3gfx2">Project is in beta and there will be future updates.</strong>
                 <div class="info">
-                    <a id="a-href-github-72fdg7gd2" href="https://github.com/MingTheNoob/QuickLinks" target="_blank">
+                    <a id="a-href-github-72fdg7gd2" href="https://github.com/MingTheNoob/QuickLinks">
                         <i class="bi bi-github"></i>
                     </a>
                     &nbsp;&middot;&nbsp;
-                    <a id="a-href-link-f823gh73g" href="/web-tools/extensions/QuickLinks" target="_blank">
+                    <a id="a-href-link-f823gh73g" href="/web-tools/extensions/QuickLinks">
                         <i class="bi bi-link-45deg"></i>
                     </a>
                     &nbsp;&middot;&nbsp;
@@ -44,11 +44,11 @@ var addWebExt2LiItem = `
                     Development planned for some time next year. Release to be determined.
                 </strong>
                 <div class="info">
-                    <a id="a-href-github-72fdg7gd2" href="https://github.com/MingTheNoob/SuperScript" target="_blank">
+                    <a id="a-href-github-72fdg7gd2" href="https://github.com/MingTheNoob/SuperScript">
                         <i class="bi bi-github"></i>
                     </a>
                     &nbsp;&middot;&nbsp;
-                    <a id="a-href-link-f823gh73g" href="/web-tools/extensions/SuperScript" target="_blank">
+                    <a id="a-href-link-f823gh73g" href="/web-tools/extensions/SuperScript">
                         <i class="bi bi-link-45deg"></i>
                     </a>
                     &nbsp;&middot;&nbsp;
@@ -71,11 +71,11 @@ var addRandomAppLiItem = `
                     Project is finished and there will likely be no future updates.
                 </strong>
                 <div class="info">
-                    <a id="a-href-github-209rd9n8d2" href="https://github.com/MingTheNoob/GDriveDownloadLinkGenerator" target="_blank">
+                    <a id="a-href-github-209rd9n8d2" href="https://github.com/MingTheNoob/GDriveDownloadLinkGenerator">
                         <i class="bi bi-github"></i>
                     </a>
                     &nbsp;&middot;&nbsp;
-                    <a id="a-href-link-f9h892" href="/web-tools/gdrive-dl-link-generator" target="_blank">
+                    <a id="a-href-link-f9h892" href="/web-tools/gdrive-dl-link-generator">
                         <i class="bi bi-link-45deg"></i>
                     </a>
                     &nbsp;&middot;&nbsp;
@@ -96,11 +96,11 @@ var addRandomAppLiItem = `
                     Project is finished and there may be future updates.
                 </strong>
                 <div class="info">
-                    <a id="a-href-github-cv03q8hf" href="https://github.com/MingTheNoob/QRCodeGenerator" target="_blank">
+                    <a id="a-href-github-cv03q8hf" href="https://github.com/MingTheNoob/QRCodeGenerator">
                         <i class="bi bi-github"></i>
                     </a>
                     &nbsp;&middot;&nbsp;
-                    <a id="a-href-link-8f3hu83b" href="/web-tools/qr-code-generator" target="_blank">
+                    <a id="a-href-link-8f3hu83b" href="/web-tools/qr-code-generator">
                         <i class="bi bi-link-45deg"></i>
                     </a>
                     &nbsp;&middot;&nbsp;
@@ -121,11 +121,11 @@ var addRandomAppLiItem = `
                     Project is finished and there will be future updates.
                 </strong>
                 <div class="info">
-                    <a id="a-href-github-ic7gwc28g28" href="https://github.com/MingTheNoob/PasswordGenerator" target="_blank">
+                    <a id="a-href-github-ic7gwc28g28" href="https://github.com/MingTheNoob/PasswordGenerator">
                         <i class="bi bi-github"></i>
                     </a>
                     &nbsp;&middot;&nbsp;
-                    <a id="a-href-link-03h8vc8nv" href="/web-tools/pw-gen" target="_blank">
+                    <a id="a-href-link-03h8vc8nv" href="/web-tools/pw-gen">
                         <i class="bi bi-link-45deg"></i>
                     </a>
                     &nbsp;&middot;&nbsp;
