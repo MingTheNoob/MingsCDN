@@ -1,24 +1,26 @@
 .qrcode-gen-input-bg-color {
-    background-color: rgb(29, 29, 29) !important;
-    color: rgb(210, 210, 210);
-    outline: none;
-    box-shadow: none !important;
+    background-color: #0f0f0f !important;
+    border: none !important;
 }
-.qrcode-gen-p-input-placeholder:focus {
-    color: rgb(210, 210, 210);
-    outline: none;
-    box-shadow: none !important;
+.qrcode-gen-input-bg-color:focus {
+    background-color: #14151c !important;
+    border: none !important;
 }
 .qrcode-button {
     background-color: #0b5ed7;
     color: rgb(255, 255, 255) !important;
     border: none;
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
     box-shadow: none !important;
 }
 .qrcode-button:focus {
     border: none;
     outline: none;
     box-shadow: none;
+}
+
+.qrcode-gen-p-input-placeholder {
+    color: rgb(121, 121, 121) !important;
 }
 
 #showQrCode {
@@ -28,16 +30,13 @@
     margin-bottom: 4rem;
     padding: 0 1rem;
   }
-  
+
 .styleQr {
     width: 100%;
     color: #000 !important;
 }
 
 @media screen and (max-width: 767px) {
-    .hero-height-adjust-qrcode {
-        height: 40vh !important;
-    }
     #showQrCode {
         width: 40%;
       }
