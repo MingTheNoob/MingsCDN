@@ -64,77 +64,7 @@ var addWebExt2LiItem = `
 var addRandomAppLiItem = `
     <li class="list-group-item-ifh29f2">
         <div class="media">
-            <a href="gdrive-dl-link-generator"><h4 id="h4-1outof4-2d9hfc29" class="h4-project-title-2f9h2f">GDrive Download Link Generator</h4></a>
-            <div class="media-body">
-                <i id="progress-icon-fo03h93hc" class="ri-check-double-line"></i>
-                <strong id="p-tdescription-9dh29dn">
-                    Project is finished and there will likely be no future updates.
-                </strong>
-                <div class="info">
-                    <a id="a-href-github-209rd9n8d2" href="https://github.com/MingTheNoob/GDriveDownloadLinkGenerator">
-                        <i class="bi bi-github"></i>
-                    </a>
-                    &nbsp;&middot;&nbsp;
-                    <a id="a-href-link-f9h892" href="/web-tools/gdrive-dl-link-generator">
-                        <i class="bi bi-link-45deg"></i>
-                    </a>
-                    &nbsp;&middot;&nbsp;
-                    <div id="circle-type-9f2j45g" class="webapp-mark-39f7cg btn-group">
-                        <i class="bi bi-circle-fill"></i>&nbsp;
-                        <span id="circle-label-2d89hf29h">Web App</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li id="2nd-item-v98h30" class="list-group-item-ifh29f2">
-        <div class="media">
-            <a href="qr-code-generator"><h4 id="h4-2outof4-c8hve8a" class="h4-project-title-2f9h2f">QR Code Generator</h4></a>
-            <div class="media-body">
-                <i id="progress-icon-f893hus" class="ri-check-double-line"></i>
-                <strong id="p-tdescription-2d9h2g4hg">
-                    Project is finished and there may be future updates.
-                </strong>
-                <div class="info">
-                    <a id="a-href-github-cv03q8hf" href="https://github.com/MingTheNoob/QRCodeGenerator">
-                        <i class="bi bi-github"></i>
-                    </a>
-                    &nbsp;&middot;&nbsp;
-                    <a id="a-href-link-8f3hu83b" href="/web-tools/qr-code-generator">
-                        <i class="bi bi-link-45deg"></i>
-                    </a>
-                    &nbsp;&middot;&nbsp;
-                    <div id="circle-type-viesnv3" class="webapp-mark-39f7cg btn-group">
-                        <i class="bi bi-circle-fill"></i>&nbsp;
-                        <span id="circle-label-6a84fc6a1w">Web App</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li id="3rd-item-f92h92" class="list-group-item-ifh29f2">
-        <div class="media">
-            <a href="pw-gen"><h4 id="h4-3outof4-v39hcv398" class="h4-project-title-2f9h2f">Password Generator</h4></a>
-            <div class="media-body">
-                <i id="progress-icon-9f2h9f2" class="ri-checkbox-circle-line"></i>
-                <strong>
-                    Project is finished and there will be future updates.
-                </strong>
-                <div class="info">
-                    <a id="a-href-github-ic7gwc28g28" href="https://github.com/MingTheNoob/PasswordGenerator">
-                        <i class="bi bi-github"></i>
-                    </a>
-                    &nbsp;&middot;&nbsp;
-                    <a id="a-href-link-03h8vc8nv" href="/web-tools/pw-gen">
-                        <i class="bi bi-link-45deg"></i>
-                    </a>
-                    &nbsp;&middot;&nbsp;
-                    <div class="webapp-mark-39f7cg btn-group">
-                        <i class="bi bi-circle-fill"></i>&nbsp;
-                        <span>Web App</span>
-                    </div>
-                </div>
-            </div>
+            <h4 id="h4-1outof4-2d9hfc29">You can view the offered random apps <a href="/web-tools/random-apps">here</a>.</h4>
         </div>
     </li>
 `;
