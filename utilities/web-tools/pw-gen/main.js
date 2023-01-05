@@ -15,14 +15,6 @@ const symbols = "!@#$%^&*()_+=";
 generateEl.addEventListener("click", function () {
 	if (!upperEl.checked && !lowerEl.checked && !numberEl.checked && !symbolEl.checked) {
 		pwEl.innerHTML = `<i>Waiting for password...</i>`;
-		successEl.innerHTML = `Success <i class="ri-check-fill"></i>`;
-		successEl.classList.remove("text-danger");
-		successEl.classList.add("text-success");
-	}
-	if (upperEl.checked || lowerEl.checked || numberEl.checked || symbolEl.checked) {
-		successEl.innerHTML = `Error <i class="ri-error-warning-fill"></i>`;
-		successEl.classList.remove("text-success");
-		successEl.classList.add("text-danger");
 	}
 });
 
