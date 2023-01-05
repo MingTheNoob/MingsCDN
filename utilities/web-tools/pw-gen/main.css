@@ -1,7 +1,6 @@
 .pw-container {
-    background-color: rgb(25, 25, 25);
-    min-width: 400px;
-    border: 0em;
+    background-color: #14151c;
+    border: 0;
     border-radius: 1rem !important;
 }
 
@@ -10,16 +9,22 @@
 }
 
 .pw {
-    background-color: rgb(35, 35, 35);
-    display: flex;
+    background-color: #2a2c39;
     font-size: 1.5rem;
-    align-items: center;
-    height: 70px;
-    width: 100%;
-    position: relative;
     padding: 1rem;
-    border: 0em;
-    border-radius: .5rem;
+    border-radius: .35rem;
+    color: #7c7c7c;
+}
+
+.pw-gen-form-bg {
+    background-color: #2a2c39 !important;
+    border-radius: .7rem;
+    color: #d8d8d8 !important;
+    font-weight: 600;
+}
+.pw-unchecked {
+    font-weight: normal !important;
+    color: #7c7c7c !important;
 }
 
 .pw button {
@@ -36,23 +41,21 @@
 }
 
 .pw-heading {
-    background-color: rgb(16, 16, 16);
-    color: rgb(179, 179, 179) !important;
+    background-color: #0f0f0f;
     text-align: center;
     font-weight: bolder;
-    border: 0rem;
     border-radius: 1rem 1rem 0rem 0rem;
     padding: 0.75rem;
     margin-top: 1rem;
 }
 
 .btn {
-    background-color: rgb(35, 35, 35) !important;
+    background-color: #3584e4 !important;
     font-weight: bold;
+    color: #fff !important;
 }
 .btn:hover {
-    background-color: rgb(35, 35, 35) !important;
-    color: rgb(95, 95, 95) !important;
+    background-color: #0f0f0f !important;
     transform: scale(1.01);
     color: inherit;
 }
@@ -72,7 +75,6 @@
 
 .generate {
     border: none;
-    color: rgb(95, 95, 95) !important;
     cursor: pointer;
     padding: 0.75rem;
     margin-top: 1rem;
@@ -80,8 +82,8 @@
 
 #len {
     border: 0em;
-    border-radius: .5rem .2rem .2rem .5rem;
-    background-color: rgb(66, 66, 66);
+    border-radius: .3rem;
+    background-color: #14151c;
     color: rgb(105, 105, 105);
 }
 
