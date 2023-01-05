@@ -5,6 +5,7 @@ const lowerEl = document.getElementById("lower");
 const numberEl = document.getElementById("number");
 const symbolEl = document.getElementById("symbol");
 const generateEl = document.getElementById("generate");
+const copyEl = document.getElementById("copy-pw");
 const upperLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const lowerLetters = "abcdefghijklmnopqrstuvwxyz";
 const numbers = "0123456789";
@@ -21,15 +22,15 @@ generateEl.addEventListener("click", function () {
 });
 
 var clipboard = new ClipboardJS('.btn', {
-	container: generateEl
+	container: copyEl
 });
 
 clipboard.on('success', function (e) {
-    generateEl.innerText = 'Copied';
+    copyEl.innerText = 'Copied';
 });
 
 clipboard.on('error', function (e) {
-    generateEl.innerText = 'Error Copying';
+    copyEl.innerText = 'Error Copying';
 });
 
 
