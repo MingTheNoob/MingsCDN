@@ -20,6 +20,7 @@ function getNewPw() {
 	setTimeout(function(){
 		copyEl.setAttribute("data-clipboard-text", pwEl.innerText);
 	}, 100);
+	successEl.innerHTML = "";
 };
 copyEl.addEventListener("click", function() {
 	successEl.classList.add("text-success");
