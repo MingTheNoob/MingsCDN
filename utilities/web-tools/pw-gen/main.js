@@ -6,6 +6,7 @@ const numberEl = document.getElementById("number");
 const symbolEl = document.getElementById("symbol");
 const generateEl = document.getElementById("generate");
 const copyEl = document.getElementById("copy-pw");
+const successEl = document.getElementById("success-pw");
 const upperLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const lowerLetters = "abcdefghijklmnopqrstuvwxyz";
 const numbers = "0123456789";
@@ -13,7 +14,7 @@ const symbols = "!@#$%^&*()_+=";
 
 generateEl.addEventListener("click", function () {
 	if (!upperEl.checked && !lowerEl.checked && !numberEl.checked && !symbolEl.checked) {
-		pwEl.innerHTML = `<italics>Waiting for password...</italics>`;
+		pwEl.innerHTML = `<i>Waiting for password...</i>`;
 		generateEl.innerText = "Error";
 	}
 	if (upperEl.checked || lowerEl.checked || numberEl.checked || symbolEl.checked) {
