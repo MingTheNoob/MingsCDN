@@ -26,11 +26,11 @@ var clipboard = new ClipboardJS('.btn', {
 });
 
 clipboard.on('success', function (e) {
-    copyEl.innerText = 'Copied';
+    copyEl.innerHTML = `Success <i class="ri-check-fill"></i>`;
 });
 
 clipboard.on('error', function (e) {
-    copyEl.innerText = 'Error Copying';
+    copyEl.innerHTML = `Error <i class="ri-error-warning-fill"></i>`;
 });
 
 
