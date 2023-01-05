@@ -82,6 +82,9 @@ function generatePassword() {
 
 		pwEl.innerText = password;
 	}
+	if (!upperEl.checked && !lowerEl.checked && !numberEl.checked && !symbolEl.checked) {
+		pwEl.innerHTML = `<i>Please select at least one option...</i>`;
+	}
 }
 
 generateEl.addEventListener("click", generatePassword);
