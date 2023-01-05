@@ -12,25 +12,19 @@ const lowerLetters = "abcdefghijklmnopqrstuvwxyz";
 const numbers = "0123456789";
 const symbols = "!@#$%^&*()_+=";
 
-var clipboard = new ClipboardJS('.btn', {
-	container: copyEl
-});
+copyEl.setAttribute("data-clipboard-text", pwEl.innerText);
+new ClipboardJS('#copy-pw');
 
-clipboard.on('success', function (e) {
-    successEl.innerHTML = `Copied <i class="ri-check-fill"></i>`;
-	successEl.classList.remove("text-danger");
+generateEl.addEventListener("click", getNewPw);
+function getNewPw() {
+	setTimeout(function(){
+		copyEl.setAttribute("data-clipboard-text", pwEl.innerText);
+	}, 100);
+};
+copyEl.addEventListener("click", function() {
 	successEl.classList.add("text-success");
+	successEl.innerHTML = "Copied! <i class='ri-check-fill'></i>";
 });
-
-
-copyEl.addEventListener("click", function () {
-	clipboard.on('error', function (e) {
-		successEl.innerHTML = `Error <i class="ri-error-warning-fill"></i>`;
-		successEl.classList.remove("text-success");
-		successEl.classList.add("text-danger");
-	});
-});
-
 
 function getLowercase() {
 	return lowerLetters[Math.floor(Math.random() * lowerLetters.length)];
