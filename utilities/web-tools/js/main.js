@@ -64,7 +64,7 @@ var addWebExt2LiItem = `
 var addRandomAppLiItem = `
     <li class="list-group-item-ifh29f2">
         <div class="media">
-            <h4 id="h4-1outof4-2d9hfc29">You can view the offered random apps here: <a href="/web-tools/random-apps">https://mingsutilities.com/web-tools/random-apps</a></h4>
+            <p id="h4-1outof4-2d9hfc29">You can view the offered random apps here: <a href="/web-tools/random-apps">https://mingsutilities.com/web-tools/random-apps</a></p>
         </div>
     </li>
 `;
