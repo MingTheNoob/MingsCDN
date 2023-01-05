@@ -68,3 +68,48 @@ function generatePassword() {
 }
 
 generateEl.addEventListener("click", generatePassword);
+
+var upperLabel = document.getElementById("upperLabel");
+var lowerLabel = document.getElementById("lowerLabel");
+var numberLabel = document.getElementById("numberLabel");
+var symbolLabel = document.getElementById("symbolLabel");
+
+upperEl.addEventListener("click", function () {
+    if (upperEl.checked) {
+        upperLabel.classList.remove("pw-unchecked");
+        upperLabel.classList.add("pw-checked");
+    } else {
+        upperLabel.classList.remove("pw-checked");
+        upperLabel.classList.add("pw-unchecked");
+    }
+});
+
+lowerEl.addEventListener("click", function () {
+    if (lowerEl.checked) {
+        lowerLabel.classList.remove("pw-unchecked");
+        lowerLabel.classList.add("pw-checked");
+    } else {
+        lowerLabel.classList.remove("pw-checked");
+        lowerLabel.classList.add("pw-unchecked");
+    }
+});
+
+numberEl.addEventListener("click", function () {
+    if (numberEl.checked) {
+        numberLabel.classList.remove("pw-unchecked");
+        numberLabel.classList.add("pw-checked");
+    } else {
+        numberLabel.classList.remove("pw-checked");
+        numberLabel.classList.add("pw-unchecked");
+    }
+});
+
+symbolEl.addEventListener("click", function () {
+    if (symbolEl.checked) {
+        symbolLabel.classList.remove("pw-unchecked");
+        symbolLabel.classList.add("pw-checked");
+    } else {
+        symbolLabel.classList.remove("pw-checked");
+        symbolLabel.classList.add("pw-unchecked");
+    }
+});
