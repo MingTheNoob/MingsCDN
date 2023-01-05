@@ -106,3 +106,24 @@
         margin-left: 4.5rem !important;
     }
 }
+@media screen and (max-width: 460px) {
+    #colourPicker {
+        margin-left: 1.75rem !important;
+    }
+}
+@media screen and (max-width: 420px) {
+    #colourPicker {
+        margin-left: .5rem !important;
+    }
+}
+@media screen and (max-width: 400px) {
+    #colourPicker {
+        margin-left: -0.25rem !important;
+    }
+}
+@media screen and (max-width: 370px) {
+    #colourPicker {
+        margin-left: -1.25rem !important;
+    }
+}
+
