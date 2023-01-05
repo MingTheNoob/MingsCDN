@@ -86,6 +86,9 @@
     background-color: #14151c;
     color: rgb(105, 105, 105);
 }
+#copy-pw {
+    color: #1d58a0;
+}
 
 #len:active {
     color: rgb(188, 188, 188);
