@@ -23,7 +23,7 @@ var clipboard = new ClipboardJS('.btn', {
 });
 
 clipboard.on('success', function (e) {
-    successEl.innerHTML = `Success <i class="ri-check-fill"></i>`;
+    successEl.innerHTML = `Copied <i class="ri-check-fill"></i>`;
 	successEl.classList.remove("text-danger");
 	successEl.classList.add("text-success");
 });
