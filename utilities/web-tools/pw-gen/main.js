@@ -22,10 +22,13 @@ clipboard.on('success', function (e) {
 	successEl.classList.add("text-success");
 });
 
-clipboard.on('error', function (e) {
-    successEl.innerHTML = `Error <i class="ri-error-warning-fill"></i>`;
-	successEl.classList.remove("text-success");
-	successEl.classList.add("text-danger");
+
+copyEl.addEventListener("click", function () {
+	clipboard.on('error', function (e) {
+		successEl.innerHTML = `Error <i class="ri-error-warning-fill"></i>`;
+		successEl.classList.remove("text-success");
+		successEl.classList.add("text-danger");
+	});
 });
 
 
