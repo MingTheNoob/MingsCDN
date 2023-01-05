@@ -17,7 +17,7 @@ generateEl.addEventListener("click", function () {
 		generateEl.innerText = "Error";
 	}
 	if (upperEl.checked || lowerEl.checked || numberEl.checked || symbolEl.checked) {
-		generateEl.innerText = "Copy Password";
+		generateEl.innerText = "Success";
 	}
 });
 
