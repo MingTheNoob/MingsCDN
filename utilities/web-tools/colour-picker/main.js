@@ -134,4 +134,4 @@ function copyNewValueHslaId() {
         hslaCodeId.setAttribute('data-clipboard-text', hslaCodeIdValue.textContent);
     }, 100);
     clipboardStatusMsg.innerHTML = 'Copied! <i class="ri-check-fill"></i>';
-}
+};
