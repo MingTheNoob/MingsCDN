@@ -20,7 +20,7 @@ generateEl.addEventListener("click", function () {
 		generateEl.innerText = "Success";
 	}
 });
-/*
+
 var clipboard = new ClipboardJS('.btn', {
 	container: copyEl
 });
@@ -32,7 +32,6 @@ clipboard.on('success', function (e) {
 clipboard.on('error', function (e) {
     copyEl.innerHTML = `Error <i class="ri-error-warning-fill"></i>`;
 });
-*/
 
 
 function getLowercase() {
