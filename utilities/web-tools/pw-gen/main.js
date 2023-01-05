@@ -15,10 +15,14 @@ const symbols = "!@#$%^&*()_+=";
 generateEl.addEventListener("click", function () {
 	if (!upperEl.checked && !lowerEl.checked && !numberEl.checked && !symbolEl.checked) {
 		pwEl.innerHTML = `<i>Waiting for password...</i>`;
-		generateEl.innerText = "Error";
+		successEl.innerHTML = `Error <i class="ri-error-warning-fill"></i>`;
+		successEl.classList.remove("text-success");
+		successEl.classList.add("text-danger");
 	}
 	if (upperEl.checked || lowerEl.checked || numberEl.checked || symbolEl.checked) {
-		generateEl.innerText = "Success";
+		successEl.innerHTML = `Success <i class="ri-check-fill"></i>`;
+		successEl.classList.remove("text-danger");
+		successEl.classList.add("text-success");
 	}
 });
 
@@ -27,11 +31,15 @@ var clipboard = new ClipboardJS('.btn', {
 });
 
 clipboard.on('success', function (e) {
-    copyEl.innerHTML = `Success <i class="ri-check-fill"></i>`;
+    successEl.innerHTML = `Success <i class="ri-check-fill"></i>`;
+	successEl.classList.remove("text-danger");
+	successEl.classList.add("text-success");
 });
 
 clipboard.on('error', function (e) {
-    copyEl.innerHTML = `Error <i class="ri-error-warning-fill"></i>`;
+    successEl.innerHTML = `Error <i class="ri-error-warning-fill"></i>`;
+	successEl.classList.remove("text-success");
+	successEl.classList.add("text-danger");
 });
 
 
