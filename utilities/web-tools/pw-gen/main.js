@@ -12,12 +12,6 @@ const lowerLetters = "abcdefghijklmnopqrstuvwxyz";
 const numbers = "0123456789";
 const symbols = "!@#$%^&*()_+=";
 
-generateEl.addEventListener("click", function () {
-	if (!upperEl.checked && !lowerEl.checked && !numberEl.checked && !symbolEl.checked) {
-		pwEl.innerHTML = `<i>Waiting for password...</i>`;
-	}
-});
-
 var clipboard = new ClipboardJS('.btn', {
 	container: copyEl
 });
