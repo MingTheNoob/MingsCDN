@@ -1,0 +1,98 @@
+.colour-picker-wrapper {
+    background-color: #14151c;
+    line-height: 150%;
+    min-height: 85vh;
+    border-radius: 1rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    .colour-picker-col {
+        width: 30%;
+        padding: 2rem 0;
+        margin-left: 14rem;
+    }
+}
+
+.colour-picker-desc {
+    margin-top: 2rem !important;
+    line-height: 180%;
+}
+
+#colourPicker {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+#colour-picker-hexInput {
+    margin-bottom: 2rem;
+    border-radius: .5rem 0 0 .5rem;
+    background-color: #0f0f0f;
+    border: 1px solid rgb(124, 124, 124);
+    color: #fff;
+}
+#colour-picker-hexInput:hover {
+    background-color: #1f1f1f;
+    border: 1px solid rgb(124, 124, 124);
+    color: #fff;
+}
+#colour-picker-copyValue {
+    border-radius: 0 .5rem .5rem 0;
+    background-color: #0f0f0f;
+    border: 1px solid rgb(124, 124, 124);
+    color: #fff;
+    height: 2.4rem;
+}
+#colour-picker-copyValue:hover {
+    background-color: #1f1f1f;
+    border: 1px solid rgb(124, 124, 124);
+    color: #fff;
+    cursor: pointer;
+}
+
+#hexCodeId:hover, #hex8CodeId:hover, #rgbCodeId:hover, #rgbaCodeId:hover, #hslCodeId:hover, #hslaCodeId:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1400px) {
+    .colour-picker-wrapper {
+
+        .colour-picker-col {
+            margin-left: 12rem !important;
+            padding: 0;
+        }
+    }
+}
+@media screen and (max-width: 1200px) {
+    .colour-picker-wrapper {
+
+        .colour-picker-col {
+            margin-left: 10rem !important;
+        }
+    }
+}
+@media screen and (max-width: 1000px) {
+    .colour-picker-wrapper {
+
+        .colour-picker-col {
+            margin-left: 8rem !important;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .colour-picker-wrapper {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+
+        .colour-picker-col {
+            width: auto;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            margin: 0 !important;
+        }
+    }
+}
