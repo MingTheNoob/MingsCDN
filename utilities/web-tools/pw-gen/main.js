@@ -10,68 +10,84 @@ const lowerLetters = "abcdefghijklmnopqrstuvwxyz";
 const numbers = "0123456789";
 const symbols = "!@#$%^&*()_+=";
 
-generateEl.addEventListener("click", function() {
+generateEl.addEventListener("click", function () {
 	if (!upperEl.checked && !lowerEl.checked && !numberEl.checked && !symbolEl.checked) {
 		pwEl.innerHTML = `<italics>Waiting for password...</italics>`;
 		generateEl.innerText = "Error";
 	}
-})
+	if (upperEl.checked || lowerEl.checked || numberEl.checked || symbolEl.checked) {
+		generateEl.innerText = "Copy Password";
+	}
+});
+
+var clipboard = new ClipboardJS('.btn', {
+	container: generateEl
+});
+
+clipboard.on('success', function (e) {
+    generateEl.innerText = 'Copied';
+});
+
+clipboard.on('error', function (e) {
+    generateEl.innerText = 'Error Copying';
+});
+
 
 function getLowercase() {
-  return lowerLetters[Math.floor(Math.random() * lowerLetters.length)];
+	return lowerLetters[Math.floor(Math.random() * lowerLetters.length)];
 }
 function getUppercase() {
-  return upperLetters[Math.floor(Math.random() * upperLetters.length)];
+	return upperLetters[Math.floor(Math.random() * upperLetters.length)];
 }
 function getNumber() {
-  return numbers[Math.floor(Math.random() * numbers.length)];
+	return numbers[Math.floor(Math.random() * numbers.length)];
 }
 function getSymbol() {
-  return symbols[Math.floor(Math.random() * symbols.length)];
+	return symbols[Math.floor(Math.random() * symbols.length)];
 }
 
 function generateX() {
-  const xs = [];
-  if (upperEl.checked) {
-    xs.push(getUppercase());
-  }
-  if (lowerEl.checked) {
-    xs.push(getLowercase());
-  }
-  if (numberEl.checked) {
-    xs.push(getNumber());
-  }
-  if (symbolEl.checked) {
-    xs.push(getSymbol());
-  }
-  if (xs.length === 0) return "";
-  return xs[Math.floor(Math.random() * xs.length)];
+	const xs = [];
+	if (upperEl.checked) {
+		xs.push(getUppercase());
+	}
+	if (lowerEl.checked) {
+		xs.push(getLowercase());
+	}
+	if (numberEl.checked) {
+		xs.push(getNumber());
+	}
+	if (symbolEl.checked) {
+		xs.push(getSymbol());
+	}
+	if (xs.length === 0) return "";
+	return xs[Math.floor(Math.random() * xs.length)];
 }
 
 function generatePassword() {
-  const len = lenEl.value;
+	const len = lenEl.value;
 
-  if (len < 4 || len > 32) {
-    alert("never gonna give you up");
-    pwEl.innerText = "";
-  } else {
-    let password = "";
+	if (len < 4 || len > 32) {
+		alert("never gonna give you up");
+		pwEl.innerText = "";
+	} else {
+		let password = "";
 
-    if (upperEl.checked) password += getUppercase();
+		if (upperEl.checked) password += getUppercase();
 
-    if (lowerEl.checked) password += getLowercase();
+		if (lowerEl.checked) password += getLowercase();
 
-    if (numberEl.checked) password += getNumber();
+		if (numberEl.checked) password += getNumber();
 
-    if (symbolEl.checked) password += getSymbol();
+		if (symbolEl.checked) password += getSymbol();
 
-    for (let i = password.length; i < len; i++) {
-      const x = generateX();
-      password += x;
-    }
+		for (let i = password.length; i < len; i++) {
+			const x = generateX();
+			password += x;
+		}
 
-    pwEl.innerText = password;
-  }
+		pwEl.innerText = password;
+	}
 }
 
 generateEl.addEventListener("click", generatePassword);
@@ -82,41 +98,41 @@ var numberLabel = document.getElementById("numberLabel");
 var symbolLabel = document.getElementById("symbolLabel");
 
 upperEl.addEventListener("click", function () {
-    if (upperEl.checked) {
-        upperLabel.classList.remove("pw-unchecked");
-        upperLabel.classList.add("pw-checked");
-    } else {
-        upperLabel.classList.remove("pw-checked");
-        upperLabel.classList.add("pw-unchecked");
-    }
+	if (upperEl.checked) {
+		upperLabel.classList.remove("pw-unchecked");
+		upperLabel.classList.add("pw-checked");
+	} else {
+		upperLabel.classList.remove("pw-checked");
+		upperLabel.classList.add("pw-unchecked");
+	}
 });
 
 lowerEl.addEventListener("click", function () {
-    if (lowerEl.checked) {
-        lowerLabel.classList.remove("pw-unchecked");
-        lowerLabel.classList.add("pw-checked");
-    } else {
-        lowerLabel.classList.remove("pw-checked");
-        lowerLabel.classList.add("pw-unchecked");
-    }
+	if (lowerEl.checked) {
+		lowerLabel.classList.remove("pw-unchecked");
+		lowerLabel.classList.add("pw-checked");
+	} else {
+		lowerLabel.classList.remove("pw-checked");
+		lowerLabel.classList.add("pw-unchecked");
+	}
 });
 
 numberEl.addEventListener("click", function () {
-    if (numberEl.checked) {
-        numberLabel.classList.remove("pw-unchecked");
-        numberLabel.classList.add("pw-checked");
-    } else {
-        numberLabel.classList.remove("pw-checked");
-        numberLabel.classList.add("pw-unchecked");
-    }
+	if (numberEl.checked) {
+		numberLabel.classList.remove("pw-unchecked");
+		numberLabel.classList.add("pw-checked");
+	} else {
+		numberLabel.classList.remove("pw-checked");
+		numberLabel.classList.add("pw-unchecked");
+	}
 });
 
 symbolEl.addEventListener("click", function () {
-    if (symbolEl.checked) {
-        symbolLabel.classList.remove("pw-unchecked");
-        symbolLabel.classList.add("pw-checked");
-    } else {
-        symbolLabel.classList.remove("pw-checked");
-        symbolLabel.classList.add("pw-unchecked");
-    }
+	if (symbolEl.checked) {
+		symbolLabel.classList.remove("pw-unchecked");
+		symbolLabel.classList.add("pw-checked");
+	} else {
+		symbolLabel.classList.remove("pw-checked");
+		symbolLabel.classList.add("pw-unchecked");
+	}
 });
