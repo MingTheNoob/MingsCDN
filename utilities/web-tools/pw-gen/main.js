@@ -12,7 +12,7 @@ const symbols = "!@#$%^&*()_+=";
 
 generateEl.addEventListener("click", function() {
 	if (!upperEl.checked && !lowerEl.checked && !numberEl.checked && !symbolEl.checked) {
-		pwEl.innerHTML = `<i>Waiting for password...</i>`;
+		pwEl.innerHTML = `<italics>Waiting for password...</italics>`;
 		generateEl.innerText = "Error";
 	}
 })
