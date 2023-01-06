@@ -92,6 +92,15 @@ hexInput.addEventListener('click', function() {
     clipboardStatusMsg.innerHTML = "";
 });
 
+const interval = setInterval(function() {
+    copyButton.setAttribute('data-clipboard-text', hexInput.value);
+    hexCodeId.setAttribute('data-clipboard-text', hexCodeIdValue.textContent);
+    hex8CodeId.setAttribute('data-clipboard-text', hex8CodeIdValue.textContent);
+    rgbCodeId.setAttribute('data-clipboard-text', rgbCodeIdValue.textContent);
+    rgbaCodeId.setAttribute('data-clipboard-text', rgbaCodeIdValue.textContent);
+    hslCodeId.setAttribute('data-clipboard-text', hslCodeIdValue.textContent);
+    hslaCodeId.setAttribute('data-clipboard-text', hslaCodeIdValue.textContent);
+}, 500);
 
 hexCodeId.addEventListener('click', copyNewValueHexId);
 function copyNewValueHexId() {
