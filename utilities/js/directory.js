@@ -85,7 +85,7 @@ itmenubtn.addEventListener("click", function () {
     btnfinished.innerText = "0 Finished";
     btnplanned.innerText = "1 Planned";
 
-    h41outof4.innerText = "Neptunium Browser";
+    h41outof5.innerText = "Neptunium Browser";
     progressicon1.classList.add("ri-calendar-2-fill");
     progressicon1.classList.remove("ri-check-double-line");
     ptdesctext1.innerText = "Design will be during 2023. Production will be in 2024. Release to be determined.";
@@ -115,7 +115,7 @@ otherbtn.addEventListener("click", function () {
     btnfinished.innerText = "0 Finished";
     btnplanned.innerText = "2 Planned";
 
-    h41outof4.innerText = "Neptunium OS";
+    h41outof5.innerText = "Neptunium OS";
     progressicon1.classList.add("ri-calendar-2-fill");
     progressicon1.classList.remove("ri-check-double-line");
     ptdesctext1.innerText = "Development has started, but has been stopped until further plans can be made. Release to be determined.";
@@ -147,7 +147,7 @@ otherbtn.addEventListener("click", function () {
 
 btnfinished.addEventListener("click", function () {
     if (wtmenubtn.classList.contains("active")) {
-        h41outof4.innerText = "GDrive Download Link Generator";
+        h41outof5.innerText = "GDrive Download Link Generator";
         ptdesctext1.innerText = "Project is finished and there will likely be no future updates.";
         ghlink1.href = "https://github.com/MingTheNoob/GDriveDownloadLinkGenerator";
         progressicon1.classList.add("ri-check-double-line");
@@ -181,7 +181,7 @@ btnfinished.addEventListener("click", function () {
 });
 btnplanned.addEventListener("click", function () {
     if (wtmenubtn.classList.contains("active")) {
-        h41outof4.innerText = "SuperScript";
+        h41outof5.innerText = "SuperScript";
         ptdesctext1.innerText = "Development planned for some time next year. Release to be determined.";
         ghlink1.href = "https://github.com/MingTheNoob/SuperScript";
         progressicon1.classList.add("ri-calendar-2-fill");
@@ -202,15 +202,18 @@ btnplanned.addEventListener("click", function () {
     btnfinished.classList.remove("active");
 });
 
-h41outof4.addEventListener("click", function () {
+h41outof5.addEventListener("click", function () {
     window.open(mainlink1);
 });
-h42outof4.addEventListener("click", function () {
+h42outof5.addEventListener("click", function () {
     window.open(mainlink2);
 });
-h43outof4.addEventListener("click", function () {
+h43outof5.addEventListener("click", function () {
     window.open(mainlink3);
 });
-h44outof4.addEventListener("click", function () {
+h44outof5.addEventListener("click", function () {
     window.open(mainlink4);
+});
+h45outof5.addEventListener("click", function () {
+    window.open(mainlink5);
 });
