@@ -15,6 +15,7 @@ var h42outof5 = document.getElementById("h4-2outof5-c8hve8a");
 var thirditem = document.getElementById("3rd-item-f92h92");
 var seconditem = document.getElementById("2nd-item-v98h30");
 var fourthitem = document.getElementById("4th-item-83hgft");
+var fifthitem = document.getElementById("5th-item-8f3h8f3");
 var ptdesctext2 = document.getElementById("p-tdescription-2d9h2g4hg");
 var progressicon2 = document.getElementById("progress-icon-f893hus");
 var ghlink2 = document.getElementById("a-href-github-cv03q8hf");
@@ -40,10 +41,10 @@ wtmenubtn.addEventListener("click", function () {
     btnplanned.classList.remove("active");
 
     projectsh2.innerText = "Web Tools Projects";
-    btnfinished.innerText = "4 Finished";
+    btnfinished.innerText = "5 Finished";
     btnplanned.innerText = "1 Planned";
 
-    h41outof4.innerText = "GDrive Download Link Generator";
+    h41outof5.innerText = "GDrive Download Link Generator";
     progressicon1.classList.add("ri-check-double-line");
     ptdesctext1.innerText = "Project is finished and there will likely be no future updates.";
     ghlink1.href = "https://github.com/MingTheNoob/GDriveDownloadLinkGenerator";
@@ -54,7 +55,7 @@ wtmenubtn.addEventListener("click", function () {
     circletype1.classList.remove("os-mark-209hf29");
     circlelabel1.innerText = "Web App";
 
-    h42outof4.innerText = "QR Code Generator";
+    h42outof5.innerText = "QR Code Generator";
     progressicon2.classList.add("ri-check-double-line");
     ptdesctext2.innerText = "Project is finished and there may be future updates.";
     ghlink2.href = "https://github.com/MingTheNoob/QRCodeGenerator";
@@ -69,6 +70,7 @@ wtmenubtn.addEventListener("click", function () {
 
     thirditem.style.display = "block";
     fourthitem.style.display = "block";
+    fifthitem.style.display = "block";
 });
 
 itmenubtn.addEventListener("click", function () {
@@ -100,6 +102,7 @@ itmenubtn.addEventListener("click", function () {
     seconditem.style.display = "none";
     thirditem.style.display = "none";
     fourthitem.style.display = "none";
+    fifthitem.style.display = "none";
 });
 
 otherbtn.addEventListener("click", function () {
@@ -143,6 +146,7 @@ otherbtn.addEventListener("click", function () {
 
     thirditem.style.display = "none";
     fourthitem.style.display = "none";
+    fifthitem.style.display = "none";
 });
 
 btnfinished.addEventListener("click", function () {
@@ -174,6 +178,7 @@ btnfinished.addEventListener("click", function () {
         seconditem.style.display = "block";
         thirditem.style.display = "block";
         fourthitem.style.display = "block";
+        fifthitem.style.display = "block";
     };
 
     btnfinished.classList.add("active");
@@ -196,6 +201,7 @@ btnplanned.addEventListener("click", function () {
         seconditem.style.display = "none";
         thirditem.style.display = "none";
         fourthitem.style.display = "none";
+        fifthitem.style.display = "none";
     };
 
     btnplanned.classList.add("active");
