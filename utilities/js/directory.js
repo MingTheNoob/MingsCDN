@@ -163,7 +163,8 @@ btnfinished.addEventListener("click", function () {
         circletype1.classList.remove("os-mark-209hf29");
         circletype1.classList.remove("desktopapp-mark-f90h290");
         circlelabel1.innerText = "Web App";
-        h42outof4.innerText = "QR Code Generator";
+
+        h42outof5.innerText = "QR Code Generator";
         ptdesctext2.innerText = "Project is finished and there may be future updates.";
         ghlink2.href = "https://github.com/MingTheNoob/QRCodeGenerator";
         progressicon2.classList.add("ri-check-double-line");
@@ -176,6 +177,7 @@ btnfinished.addEventListener("click", function () {
         circletype2.classList.remove("desktopapp-mark-f90h290");
         circlelabel2.innerText = "Web App";
         seconditem.style.display = "block";
+
         thirditem.style.display = "block";
         fourthitem.style.display = "block";
         fifthitem.style.display = "block";
