@@ -39,7 +39,7 @@ h6 {
     right: 15px;
     bottom: 15px;
     z-index: 996;
-    background: rgb(37, 202, 252);
+    background: #257bfc;
     width: 40px;
     height: 40px;
     border-radius: 50px;
@@ -803,12 +803,12 @@ section {
     transition: 0.5s;
     margin: 10px;
     color: #fff;
-    background: rgb(37, 202, 252);
+    background: #257bfc;
 }
 
 .cta .cta-btn:hover {
     background: #fff;
-    color: rgb(37, 202, 252);
+    color: #1866db;
 }
 
 @media (max-width: 1024px) {
@@ -1056,7 +1056,7 @@ section {
 #footer .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: rgb(37, 202, 252);
+    background: #257bfc;
     color: #fff;
     line-height: 1;
     padding: 8px 0;
@@ -1069,7 +1069,7 @@ section {
 }
 
 #footer .social-links a:hover {
-    background: #0263bd;
+    background: #1f6cfc;
     color: #fff;
     text-decoration: none;
 }
