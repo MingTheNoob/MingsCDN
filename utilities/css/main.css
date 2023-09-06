@@ -687,8 +687,7 @@ section {
     justify-content: center;
 }
 
-.features .nav-link i,
-.features .nav-link img {
+.features .nav-link i {
     padding-right: 1rem;
     font-size: 3rem;
 }
