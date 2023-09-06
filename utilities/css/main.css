@@ -430,14 +430,14 @@ h6 {
     transition: 0.5s;
     line-height: 1;
     margin: 10px;
-    color: rgb(151, 231, 255);
+    color: #257bfc;
     -webkit-animation-delay: 0.8s;
     animation-delay: 0.8s;
-    border: 2px solid rgb(37, 202, 252);
+    border: 2px solid #257bfc;
 }
 
 #hero .btn-get-started:hover {
-    background: rgb(37, 202, 252);
+    background: #1f6cfc;
     color: #fff;
     text-decoration: none;
 }
