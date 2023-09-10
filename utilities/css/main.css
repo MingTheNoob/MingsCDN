@@ -160,7 +160,7 @@ h6 {
 }
 
 .navbar a:hover,
-.navbar li:hover > a {
+.navbar li:hover>a {
     background: rgba(108, 0, 129, 0.4);
 }
 
@@ -204,11 +204,11 @@ h6 {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul li:hover>a {
     color: rgb(232, 230, 227);
 }
 
-.navbar .dropdown:hover > ul {
+.navbar .dropdown:hover>ul {
     opacity: 1;
     top: 100%;
     visibility: visible;
@@ -220,7 +220,7 @@ h6 {
     visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover > ul {
+.navbar .dropdown .dropdown:hover>ul {
     opacity: 1;
     top: 0;
     left: 100%;
@@ -232,7 +232,7 @@ h6 {
         left: -90%;
     }
 
-    .navbar .dropdown .dropdown:hover > ul {
+    .navbar .dropdown .dropdown:hover>ul {
         left: -100%;
     }
 }
@@ -301,7 +301,7 @@ h6 {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover > a {
+.navbar-mobile li:hover>a {
     color: #fff;
 }
 
@@ -335,11 +335,11 @@ h6 {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul li:hover>a {
     color: #fff;
 }
 
-.navbar-mobile .dropdown > .dropdown-active {
+.navbar-mobile .dropdown>.dropdown-active {
     display: block;
 }
 
@@ -351,28 +351,20 @@ h6 {
     overflow: hidden;
     position: relative;
     background-color: rgb(0, 70, 221);
-    background-image: -moz-linear-gradient(
-        top,
-        rgb(0, 153, 224),
-        rgb(149, 0, 179)
-    );
-    background-image: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        from(rgb(0, 153, 224)),
-        to(rgb(149, 0, 179))
-    );
-    background-image: -webkit-linear-gradient(
-        top,
-        rgb(0, 153, 224),
-        rgb(149, 0, 179)
-    );
-    background-image: -o-linear-gradient(
-        top,
-        rgb(0, 153, 224),
-        rgb(149, 0, 179)
-    );
+    background-image: -moz-linear-gradient(top,
+            rgb(0, 153, 224),
+            rgb(149, 0, 179));
+    background-image: -webkit-gradient(linear,
+            left top,
+            left bottom,
+            from(rgb(0, 153, 224)),
+            to(rgb(149, 0, 179)));
+    background-image: -webkit-linear-gradient(top,
+            rgb(0, 153, 224),
+            rgb(149, 0, 179));
+    background-image: -o-linear-gradient(top,
+            rgb(0, 153, 224),
+            rgb(149, 0, 179));
     background-image: linear-gradient(top, rgb(0, 153, 224), rgb(149, 0, 179));
     filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='rgb(0, 153, 224)',
             EndColorStr='rgb(149,0,179)');
@@ -616,7 +608,7 @@ section {
     position: relative;
 }
 
-.about .content ul li + li {
+.about .content ul li+li {
     margin-top: 10px;
 }
 
@@ -708,6 +700,7 @@ section {
     color: #fff;
     box-shadow: 0 0 !important;
 }
+
 .features .nav-link.active:hover {
     color: #fff;
     background-color: rgb(70, 140, 247) !important;
@@ -758,13 +751,14 @@ section {
     margin-bottom: 0;
 }
 
-.row-c892ghf92 > * {
+.row-c892ghf92>* {
     padding-right: 0 !important;
 }
 
 .row-c892ghf92 {
     display: initial !important;
 }
+
 @media (min-width: 992px) {
     .col-lg-6 {
         flex: 0 0 auto;
@@ -853,6 +847,7 @@ section {
     color: rgb(200, 195, 188);
     transition: 0.3s;
 }
+
 .breadcrumbs a:hover {
     color: #fff;
 }
@@ -863,21 +858,25 @@ section {
     }
 }
 
-.breadcrumbs ol li + li {
+.breadcrumbs ol li+li {
     padding-left: 10px;
 }
+
 .breadcrumbs ol li a {
     color: #2394fd;
 }
+
 .breadcrumbs ol li a:hover {
     color: #55a9f7;
 }
-.breadcrumbs ol li + li::before {
+
+.breadcrumbs ol li+li::before {
     display: inline-block;
     padding-right: 10px;
     color: #fff;
     content: "/";
 }
+
 .title-link-group {
     display: flex;
 }
@@ -891,9 +890,9 @@ section {
         display: block !important;
     }
 
-        .title-link-group {
-            display: flex;
-        }
+    .title-link-group {
+        display: flex;
+    }
 
     .breadcrumbs ol {
         display: block;
@@ -924,6 +923,7 @@ section {
     margin-bottom: 20px;
     padding: 20px;
 }
+
 .faq .faq-list li:hover {
     background-color: #192230;
 }
@@ -994,6 +994,7 @@ section {
     padding: 20px;
     padding-bottom: 20px !important;
 }
+
 .quicklinks-cmds-list .faq-list li:hover {
     background-color: #192230;
 }
