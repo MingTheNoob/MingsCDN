@@ -849,6 +849,14 @@ section {
     font-size: 14px;
 }
 
+.breadcrumbs a {
+    color: rgb(200, 195, 188);
+    transition: 0.3s;
+}
+.breadcrumbs a:hover {
+    color: #fff;
+}
+
 @media (max-width: 992px) {
     .breadcrumbs ol {
         margin-top: 10px;
