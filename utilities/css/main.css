@@ -866,7 +866,12 @@ section {
 .breadcrumbs ol li + li {
     padding-left: 10px;
 }
-
+.breadcrumbs ol li a {
+    color: #2394fd;
+}
+.breadcrumbs ol li a:hover {
+    color: #55a9f7;
+}
 .breadcrumbs ol li + li::before {
     display: inline-block;
     padding-right: 10px;
