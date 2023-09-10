@@ -878,6 +878,9 @@ section {
     color: #fff;
     content: "/";
 }
+.title-link-group {
+    display: flex;
+}
 
 .display-flex {
     display: flex;
@@ -887,6 +890,10 @@ section {
     .breadcrumbs .d-flex {
         display: block !important;
     }
+
+        .title-link-group {
+            display: flex;
+        }
 
     .breadcrumbs ol {
         display: block;
